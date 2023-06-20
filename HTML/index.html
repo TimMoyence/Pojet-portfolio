@@ -13,11 +13,12 @@
       <img
         src="../image/Logo_Asili__1_-removebg-preview.png"
         alt="Logo Asili design"
+        class="Logo"
       />
       <head class="slogan">
         Bien plus qu'un simple site web
       </head>
-      <ul>
+      <ul class="menu">
         <li>Acceuil</li>
         <li>Mes réalisations</li>
         <li>Mon parcours</li>
@@ -66,29 +67,65 @@
         </p>
         <button class="Parcours__Button">Mon parcours</button>
       </section>
-      <h1 class="Skill">Skill</h1>
-      <h2 class="Skill__General">general</h2>
-      <ul class="Skill__General__list">
-        <li>Analyse économique</li>
-        <li>Management</li>
-        <li>Relatont client</li>
-        <li>Gestion litige</li>
-        <li>Pack excel</li>
-        <li>Organisation</li>
-      </ul>
-      <h2 class="Skill__web">Web developpement</h2>
-      <ul class="Skill__web__list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-      </ul>
-      <ul class="achievement">
-        <li class="achievement__Ofig"></li>
-        <li class="achievement__S01-project"></li>
-      </ul>
-      <button class="achievement__button">Mes réalisations</button>
-
-      
+      <section class="skill">
+        <h1 class="Skill__title">Skill</h1>
+        <div class="contenaire">
+          <h2 class="Skill__General">general</h2>
+          <ul class="Skill__General__list">
+            <li>Analyse économique</li>
+            <li>Management</li>
+            <li>Relatont client</li>
+            <li>Gestion litige</li>
+            <li>Pack excel</li>
+            <li>Organisation</li>
+          </ul>
+        </div>
+        <div class="contenaire">
+          <h2 class="Skill__web">Web developpement</h2>
+          <ul class="Skill__web__list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+      </section>
+      <section class="echievement">
+        <ul class="achievement__list">
+          <li class="achievement__list__Ofig"></li>
+          <li class="achievement__list__S01-project"></li>
+        </ul>
+        <button class="achievement__button">Mes réalisations</button>
+      </section>
+      <section class="formular">
+        <form action="" class="form">
+          <label for="prenom"
+            >Prenom<input type="text" name="prenom" value=""
+          /></label>
+          <label for="nom">Nom<input type="text" name="nom" value="" /></label>
+          <label for="Compagnie"
+            >Entreprise<input type="text" name="Compagnie" value=""
+          /></label>
+          <label for="email"
+            >Email<input type="email" name="email" id="email"
+          /></label>
+          <label for="phone-number"
+            >numero telephone
+            <input type="tel" name="phone-number" id="phone-number"
+          /></label>
+          <label for="message"
+            >Message<textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <input type="submit" value="Envoyer" />
+        </form>
+      </section>
     </main>
+    <footer>
+      <div class="footer">Site réalisé par Tim Moyence</div>
+    </footer>
   </body>
 </html>

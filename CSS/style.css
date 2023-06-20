@@ -1,0 +1,23 @@
+body{
+    box-sizing: border-box;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid purple;
+}
+
+.logo{
+    width: 1px;
+    height: 1px;
+}
+
+.menu{
+    display: flex;
+}
+
+section{
+    display: flex;
+    border: 1px solid red;
+}
