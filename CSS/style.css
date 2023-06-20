@@ -5,19 +5,40 @@ body{
 header{
     display:flex;
     flex-direction: row;
-    border: 1px solid purple;
+    font-size: 1.5rem;
 }
 
-.logo{
-    width: 1px;
-    height: 1px;
+.compagnie{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.compagnie__logo{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 24rem;
+    margin-left: 1.5rem;
 }
 
 .menu{
     display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.menu > li {
+    padding:0.5rem
 }
 
 section{
     display: flex;
+    flex-direction: column;
     border: 1px solid red;
+}
+
+.resume__img{
+    height: 40rem;
+    width: 35rem;
+    border-radius: 34rem;
 }
