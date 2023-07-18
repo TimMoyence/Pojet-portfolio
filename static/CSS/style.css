@@ -38,10 +38,9 @@ header {
 section {
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 24px;
   padding: 20px;
+  border: 1px solid blue;
 }
 
 .home__photo {
@@ -49,3 +48,5 @@ section {
   width: 35rem;
   border-radius: 50%;
 }
+
+

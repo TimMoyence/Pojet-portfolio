@@ -4,26 +4,25 @@
   <div class="presentation">
     <h1>Tim Moyence</h1>
     <p>
-      Après six ans passé chez Decathlon, dont trois en tant que responsable
-          ou j’ai pu acquérir des compétences grâce a des tâches aussi diverses
-          et variées, apportées par le métier de responsable, m’ont permises de
-          mettre en pratique mes compétences scolaire aussi bien dans la gestion
-          d’un rayon par, le pilotage de l’activité, le management d’une équipe
-          (en passant du recrutement, a l’intégration puis l’évolution de celle
-          ci grâce aux entretiens de développements) ainsi que l’organisation du
-          rayon. Tout cela dans l’idée de gestion d’une entreprise car chaque
-          responsable de rayon dois gérer son univers comme si il gérait son
-          business. Mais également lancer des services prometteur comme
-          l’occasion. J’ai pris la décision de me reconvertir dans un nouveau
-          métier. Le métier de développeur. En effet, j’ai toujours été attiré
-          par le digital et les métiers en lien avec l’informatique, j’ai pu
-          lors de mon master réaliser deux sites web sur wordpress, puis un sur
-          lequel j’ai pu travailler au quotidien. Très agile j’aime le mouvement
-          et le changement, cette reconversion est donc une aubaine pour moi
-          d’aller vers un univers en constant mouvement. L’objectif sera en tant
-          que jeune développeur web de pouvoir allier les deux choses qui me
-          passionne, le voyage et la découverte de nouvelle culture avec un
-          affection particulière pour le code.
+      Après six ans passé chez Decathlon, dont trois en tant que responsable ou
+      j’ai pu acquérir des compétences grâce a des tâches aussi diverses et
+      variées, apportées par le métier de responsable, m’ont permises de mettre
+      en pratique mes compétences scolaire aussi bien dans la gestion d’un rayon
+      par, le pilotage de l’activité, le management d’une équipe (en passant du
+      recrutement, a l’intégration puis l’évolution de celle ci grâce aux
+      entretiens de développements) ainsi que l’organisation du rayon. Tout cela
+      dans l’idée de gestion d’une entreprise car chaque responsable de rayon
+      dois gérer son univers comme si il gérait son business. Mais également
+      lancer des services prometteur comme l’occasion. J’ai pris la décision de
+      me reconvertir dans un nouveau métier. Le métier de développeur. En effet,
+      j’ai toujours été attiré par le digital et les métiers en lien avec
+      l’informatique, j’ai pu lors de mon master réaliser deux sites web sur
+      wordpress, puis un sur lequel j’ai pu travailler au quotidien. Très agile
+      j’aime le mouvement et le changement, cette reconversion est donc une
+      aubaine pour moi d’aller vers un univers en constant mouvement. L’objectif
+      sera en tant que jeune développeur web de pouvoir allier les deux choses
+      qui me passionne, le voyage et la découverte de nouvelle culture avec un
+      affection particulière pour le code.
     </p>
   </div>
   <img
@@ -44,10 +43,22 @@
 </section>
 <section class="experience" id="experience">
   <h2>Experience</h2>
-  <h3>Formation</h3>
-  <p>...</p>
-  <h3>Work</h3>
-  <p>...</p>
+  <div class="formation">
+    <h3>Formation</h3>
+    <p>...</p>
+  </div>
+  <div class="work">
+    <h3>Work</h3>
+    <ul>
+      <% for (let exp of experience) { %>
+      <li class="experience__List__container">
+        <div class="experience__List__work"><%= exp.metier %></div>
+        <div class="experience__List__where"><%= exp.Ou %></div>
+        <div class="experience__List__When"><%= exp.Quand %></div>
+      </li>
+      <% } %>
+    </ul>
+  </div>
 </section>
 <section class="portfolio" id="portfolio">
   <h2>Portfolio</h2>

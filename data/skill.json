@@ -1,0 +1,25 @@
+[
+  {
+    "Academique Skill": [
+      "Blockchain",
+      "Outils de veille",
+      "création Business Plan",
+      "création Plan Marketing",
+      "Gestion de Projets",
+      "Analyse Financière"
+    ]
+  },
+  {
+    "Soft Skill": [
+      "Pilotage Activitée",
+      "OrganisationUnité Commerciale",
+      "Création Association",
+      "Management Equipe",
+      "Recrutement",
+      "Gestion Temps",
+      "Analyse Marché",
+      "Vente"
+    ]
+  },
+  { "Hard Skill": ["HTML", "CSS", "Java Script", "Node.js"] }
+]
