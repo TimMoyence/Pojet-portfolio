@@ -1,47 +1,30 @@
-body {
-  box-sizing: border-box;
-}
-
-header {
-  display: flex;
-  flex-direction: row;
-  font-size: 1rem;
-  position: sticky;
-  top: 0;
-  background-color: #878686b8;
-  color: #fff;
-}
-
-.compagnie {
-  display: flex;
-  flex-grow: 1;
-  align-items: center;
-}
-
-.compagnie__logo {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 24rem;
-  margin-left: 1.5rem;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-}
-
-.menu > a {
-  padding: 0.25rem;
-}
-
-section {
+.contenaire {
   height: 100vh;
   display: flex;
-  font-size: 24px;
-  padding: 20px;
-  border: 1px solid blue;
+  font-size: 1rem;
+  background-color: #f7fafb;
 }
+
+.about,
+.portfolio{
+  background-color: #dbe1e8;
+  width: 100%;
+}
+
+.presentation{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.presentation__paraph{
+    display: flex;
+}
+
 
 .home__photo {
   height: 40rem;
@@ -49,4 +32,56 @@ section {
   border-radius: 50%;
 }
 
+.devSkillContenaire{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.hardSkill,
+.softSkill{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding-bottom: 2rem;
+}
+
+.about li{
+  display: flex;
+
+  border: 1px solid blue;
+}
+.devSkill {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #36cac8;
+  height: 4rem;
+  width: 4rem;
+}
+
+h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.experience{
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+strong{
+  color: #36cac8 ;
+}
+
+.scroller {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
+.scroller .contenaire {
+    scroll-snap-align: start;
+}
 

@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin-top: 0.25rem;
+  padding: 1rem;
+  background-color: #2c383f;
+  justify-content: center;
+}
+
+.footer > a{
+    margin-left: 1rem;
+}
+
+.footer > strong{
+    margin-left: 0.3rem;
+}

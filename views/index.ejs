@@ -1,67 +1,108 @@
 <%- include ('partials/head') %>
 
-<section id="home">
-  <div class="presentation">
-    <h1>Tim Moyence</h1>
-    <p>
-      Après six ans passé chez Decathlon, dont trois en tant que responsable ou
-      j’ai pu acquérir des compétences grâce a des tâches aussi diverses et
-      variées, apportées par le métier de responsable, m’ont permises de mettre
-      en pratique mes compétences scolaire aussi bien dans la gestion d’un rayon
-      par, le pilotage de l’activité, le management d’une équipe (en passant du
-      recrutement, a l’intégration puis l’évolution de celle ci grâce aux
-      entretiens de développements) ainsi que l’organisation du rayon. Tout cela
-      dans l’idée de gestion d’une entreprise car chaque responsable de rayon
-      dois gérer son univers comme si il gérait son business. Mais également
-      lancer des services prometteur comme l’occasion. J’ai pris la décision de
-      me reconvertir dans un nouveau métier. Le métier de développeur. En effet,
-      j’ai toujours été attiré par le digital et les métiers en lien avec
-      l’informatique, j’ai pu lors de mon master réaliser deux sites web sur
-      wordpress, puis un sur lequel j’ai pu travailler au quotidien. Très agile
-      j’aime le mouvement et le changement, cette reconversion est donc une
-      aubaine pour moi d’aller vers un univers en constant mouvement. L’objectif
-      sera en tant que jeune développeur web de pouvoir allier les deux choses
-      qui me passionne, le voyage et la découverte de nouvelle culture avec un
-      affection particulière pour le code.
-    </p>
+<main class="scroller">
+  <div class="contenaire">
+    <section id="home">
+      <div class="presentation">
+        <p class="presentation__paraph">
+          Après six ans passé chez Decathlon, dont trois en tant que responsable
+          ou j’ai pu acquérir des compétences grâce a des tâches aussi diverses
+          et variées, apportées par le métier de responsable, m’ont permises de
+          mettre en pratique mes compétences scolaire aussi bien dans la gestion
+          d’un rayon par, le pilotage de l’activité, le management d’une équipe
+          (en passant du recrutement, a l’intégration puis l’évolution de celle
+          ci grâce aux entretiens de développements) ainsi que l’organisation du
+          rayon. Tout cela dans l’idée de gestion d’une entreprise car chaque
+          responsable de rayon dois gérer son univers comme si il gérait son
+          business. Mais également lancer des services prometteur comme
+          l’occasion. J’ai pris la décision de me reconvertir dans un nouveau
+          métier. Le métier de développeur. En effet, j’ai toujours été attiré
+          par le digital et les métiers en lien avec l’informatique, j’ai pu
+          lors de mon master réaliser deux sites web sur wordpress, puis un sur
+          lequel j’ai pu travailler au quotidien. Très agile j’aime le mouvement
+          et le changement, cette reconversion est donc une aubaine pour moi
+          d’aller vers un univers en constant mouvement. L’objectif sera en tant
+          que jeune développeur web de pouvoir allier les deux choses qui me
+          passionne, le voyage et la découverte de nouvelle culture avec un
+          affection particulière pour le code.
+        </p>
+        <img
+          class="home__photo"
+          src="/image/photo__site.JPG"
+          alt="photo présentation Tim"
+        />
+      </div>
+    </section>
   </div>
-  <img
-    class="home__photo"
-    src="/image/photo__site.JPG"
-    alt="photo présentation Tim"
-  />
-</section>
-<section class="about" id="about">
-  <h2>About</h2>
-  <h3>Who am I</h3>
-  <p>...</p>
-  <h3>My Skills</h3>
-  <h4>Hard Skills</h4>
-  <p>...</p>
-  <h4>Soft Skills</h4>
-  <p>...</p>
-</section>
-<section class="experience" id="experience">
-  <h2>Experience</h2>
-  <div class="formation">
-    <h3>Formation</h3>
-    <p>...</p>
+  <div class="contenaire">
+    <section class="about" id="about">
+      <h2>About</h2>
+      <h3>My Skills</h3>
+      <ul class="hardSkill">
+        <h4><strong>Hard Skills</strong></h4>
+        <h5>Managing Skill</h5>
+        <li class="managerSkill">Pilotage Activitée</li>
+        <li class="managerSkill">OrganisationUnité Commerciale</li>
+        <li class="managerSkill">Création Association</li>
+        <li class="managerSkill">Management Equipe</li>
+        <li class="managerSkill">Recrutement</li>
+        <li class="managerSkill">Gestion Temps</li>
+        <li class="managerSkill">Analyse Marché</li>
+        <li class="managerSkill">Vente</li>
+        <h5>Devellopper Skill</h5>
+        <div class="devSkillContenaire">
+          <img class="devSkill" src="/image/languages/HTML.png" alt="">
+          <img class="devSkill" src="/image/languages/CSS.png" alt="">
+          <img class="devSkill" src="/image/languages/JS.png" alt="">
+          <img class="devSkill" src="/image/languages/Node.png" alt="">
+          <img class="devSkill" src="/image/languages/SQL.png" alt="">
+        </div>
+      </ul>
+      <ul class="softSkill">
+        <h4><strong>Soft Skills</strong></h4>
+        <li class="softSkill__item">Agilité</li>
+        <li class="softSkill__item">rigueur</li>
+        <li class="softSkill__item">souplesse</li>
+        <li class="softSkill__item">écoute</li>
+      </ul>
+    </section>
   </div>
-  <div class="work">
-    <h3>Work</h3>
-    <ul>
-      <% for (let exp of experience) { %>
-      <li class="experience__List__container">
-        <div class="experience__List__work"><%= exp.metier %></div>
-        <div class="experience__List__where"><%= exp.Ou %></div>
-        <div class="experience__List__When"><%= exp.Quand %></div>
-      </li>
-      <% } %>
-    </ul>
+  <div class="contenaire">
+    <section class="experience" id="experience">
+      <h2 class="experience__title">Experience</h2>
+      <div class="formation">
+        <h3>Formation</h3>
+        <ul>
+          <% for (let form of formation) { %>
+          <li class="formation__List__container">
+            <div class="formation__List__work"><%= form.nom %></div>
+            <div class="formation__List__level"><%= form.niveau %></div>
+            <div class="formation__List__When">
+              Réalisé en <%= form.année %> chez <%= form.école %>
+            </div>
+          </li>
+          <% } %>
+        </ul>
+      </div>
+      <div class="work">
+        <h3>Work</h3>
+        <ul>
+          <% for (let exp of experience) { %>
+          <li class="experience__List__container">
+            <div class="experience__List__work"><%= exp.metier %></div>
+            <div class="experience__List__where"><%= exp.Ou %></div>
+            <div class="experience__List__When"><%= exp.Quand %></div>
+          </li>
+          <% } %>
+        </ul>
+      </div>
+    </section>
   </div>
-</section>
-<section class="portfolio" id="portfolio">
-  <h2>Portfolio</h2>
-</section>
+  <div class="contenaire">
+    <section class="portfolio" id="portfolio">
+      <h2>Portfolio</h2>
+    </section>
+  </div>
+</main>
 
 <%- include ('partials/foot') %>

@@ -10,12 +10,14 @@ app.set("view engine", "ejs");
 app.set("views", "views");
 
 const experience = require("./data/experience");
-const skill = require("./data/skill");
+const skills = require("./data/skills");
 const savoirEtre = require("./data/savoirEtre");
+const formation = require("./data/formation");
 
 app.locals.experience = experience;
-app.locals.skill = skill;
+app.locals.skills = skills;
 app.locals.savoirEtre = savoirEtre;
+app.locals.formation = formation;
 
 app.use(express.static(path.join(__dirname, "./static")));
 app.use(router);
