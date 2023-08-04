@@ -1,30 +1,20 @@
-const express = require("express");
-const path = require("path");
-const router = require("./router");
-
+require('dotenv').config();
+const path = require('path');
+const express = require('express');
 const app = express();
+const router = require('./app/router.js');
 
-app.set("view engine", "ejs");
-// on définit le fait que le dossier qui contient les vues est views
-//     nom param  valeur du param
-app.set("views", "views");
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'app/views'));
 
-const experience = require("./data/experience");
-const skills = require("./data/skills");
-const savoirEtre = require("./data/savoirEtre");
-const formation = require("./data/formation");
+app.use(express.static('./public'));
 
-app.locals.experience = experience;
-app.locals.skills = skills;
-app.locals.savoirEtre = savoirEtre;
-app.locals.formation = formation;
-
-app.use(express.static(path.join(__dirname, "./static")));
 app.use(router);
 
-const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(
-    `projet site portfolio server is running on http://localhost:${PORT}`
-  );
+app.set('port', process.env.PORT || 5000);
+app.set('base_url', process.env.BASE_URL + ':' + app.get('port'));
+
+app.listen(app.get('port'), () => {
+        console.log(`Listening on ${app.get('base_url')
+    }`);
 });
