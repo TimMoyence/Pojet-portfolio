@@ -8,16 +8,24 @@
 
 # Palettes couleurs  : 
 ## Couleur du fonds : 
-- #f7fafb 
-  
+- #0C1821 
+
+## Couleur de chaque encart : 
+- #D4EAFA
+
 ## Couleur du texte : 
 - #0C1821
   
 ## couleur des icone / Bouton / Chose importante : 
-- #36cac8 
+- #59D4E4 
+
+## Couleur header et footer
+- #3D767E
 
 ## couleur en hover
-- #3D767E
+- ???
+
+
 
 # Logo 
 ![logo](../public/image/Logo_Asili__1_-removebg-preview.png)
