@@ -1,9 +1,26 @@
-.main{
-  background-color: #0C1821;
-  height : 100vh;
+*{
+  font-family: 'Barlow', sans-serif !important;
 }
 
-.promesses{
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family: 'Nunito', sans-serif !important;
+}
+
+header{
+  margin-bottom: 56px;
+}
+
+.main{
+  background-color: #0C1821;
+  height: 100%;
+}
+
+.nav-bar-title{
   color: #59D4E4 
 }
 
@@ -11,8 +28,23 @@
   background-color: #3D767E;
 }
 
-.btn-contact{
- background-color: #59D4E4;
+section{
+  min-height: 60vh;
+  max-width: 80%;
+}
+
+.presentation-picture{
+  max-width: 7rem;
+  max-height: 12rem;
+}
+
+.presentation__paraph{
+  max-width: 80%;
+}
+
+.btn-contact
+{
+ background-color: #59D4E4 !important;
 }
 
 .btn-contact:hover{

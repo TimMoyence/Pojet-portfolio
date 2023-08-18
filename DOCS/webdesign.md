@@ -20,7 +20,7 @@
 - #59D4E4 
 
 ## Couleur header et footer
-- #3D767E
+- #3D767ECd
 
 ## couleur en hover
 - ???
