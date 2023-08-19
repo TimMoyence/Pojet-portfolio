@@ -29,18 +29,37 @@ header{
 }
 
 section{
-  min-height: 60vh;
+  min-height: 70vh;
   max-width: 80%;
 }
 
 .presentation-picture{
-  max-width: 7rem;
-  max-height: 12rem;
+  max-width: 10rem;
+  aspect-ratio: 1/2;
+  object-fit: contain;
 }
 
 .presentation__paraph{
   max-width: 80%;
 }
+
+.skill-picture{
+  max-width: 15rem;
+  aspect-ratio: 1/2;
+  object-fit: contain;
+}
+
+.hard-skill__img{
+  max-width: 4rem;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.list-group-item, 
+.list-group-mine{
+  background-color: #d4eafa;
+}
+
 
 .btn-contact
 {
