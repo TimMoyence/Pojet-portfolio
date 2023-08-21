@@ -11,9 +11,9 @@ h6{
 font-family: 'Nunito', sans-serif !important;
 }
 
-header{
+/* header{
   margin-bottom: 56px;
-}
+} */
 
 .main{
   background-color: #0C1821;
@@ -29,8 +29,10 @@ header{
 }
 
 section{
-  min-height: 70vh;
+  min-height: 80vh !important;
   max-width: 80%;
+  padding-top: 56px !important;
+  
 }
 
 .presentation-picture{
@@ -58,8 +60,13 @@ section{
 .list-group-item, 
 .list-group-mine{
   background-color: #d4eafa;
+  border: none !important;
 }
 
+
+.carousel-item{
+  max-height: 90vh !important;
+}
 
 .btn-contact
 {
@@ -69,4 +76,10 @@ section{
 .btn-contact:hover{
  background-color: #0C1821;
  color: #59D4E4; 
+}
+
+.logo-contact{
+  max-width: 2rem !important;
+  aspect-ratio: 1/2;
+  object-fit: contain;
 }
