@@ -1,2 +1,10 @@
-- Scoply pour mettre en surbrillance la partie du menu dans lequels on est : https://getbootstrap.com/docs/5.3/components/scrollspy/
-- 
+- [ ] Scoply pour mettre en surbrillance la partie du menu dans lequels on est : https://getbootstrap.com/docs/5.3/components/scrollspy/
+- [ ] Geston middle d'erreur
+- [ ] Création formulaire en post pour récupération donnée 
+- [ ] Création d'une base de donnée ? 
+- [ ] Rendre ça responsive grand écran 
+- [ ] Rendre responsive petit écran avec navbar surtout 
+- [ ] Mettre des petits icones sur ce que je suis en bas
+- [ ] Mettre un fond un peu design avec du js pour la gestion du scrool et l'apparition des coockie 
+- [ ] Mettre menu sur le coté avec mail et autre et faire disparaitre une fois que le footer est présent 
+- [ ] Création d'un read me pour présentation sur github 
