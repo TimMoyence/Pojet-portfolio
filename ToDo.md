@@ -8,3 +8,6 @@
 - [ ] Mettre un fond un peu design avec du js pour la gestion du scrool et l'apparition des coockie 
 - [ ] Mettre menu sur le coté avec mail et autre et faire disparaitre une fois que le footer est présent 
 - [ ] Création d'un read me pour présentation sur github 
+- [ ] Creation base de donnée 
+  - [ ] avec droit : User / admin (moi création d'origine)
+  - [ ]  
