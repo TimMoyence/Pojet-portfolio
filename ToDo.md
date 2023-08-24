@@ -1,13 +1,36 @@
-- [ ] Scoply pour mettre en surbrillance la partie du menu dans lequels on est : https://getbootstrap.com/docs/5.3/components/scrollspy/
-- [ ] Geston middle d'erreur
-- [ ] Création formulaire en post pour récupération donnée 
-- [ ] Création d'une base de donnée ? 
+## General
+
+- [X] Scoply pour mettre en surbrillance la partie du menu dans lequels on est : https://getbootstrap.com/docs/5.3/components/scrollspy/
+- [X] Geston middle d'erreur
 - [ ] Rendre ça responsive grand écran 
-- [ ] Rendre responsive petit écran avec navbar surtout 
-- [ ] Mettre des petits icones sur ce que je suis en bas
-- [ ] Mettre un fond un peu design avec du js pour la gestion du scrool et l'apparition des coockie 
-- [ ] Mettre menu sur le coté avec mail et autre et faire disparaitre une fois que le footer est présent 
-- [ ] Création d'un read me pour présentation sur github 
+  - [ ] Rendre responsive petit écran avec navbar surtout 
+- [ ] Mettre un fond un peu design avec du js pour la gestion du scrool sur le background avoir des figure qui se déplace au scroll
+- [ ] Gestion des cookie et mise en place d'une acceptation 
 - [ ] Creation base de donnée 
   - [ ] avec droit : User / admin (moi création d'origine)
-  - [ ]  
+  - [ ] pour récupération des formulaire  
+
+## Section NavBar
+- [ ] Faire en sorte que le logo sois plus visible
+
+## Section Home
+- [ ] Mettre des petits icones sur la section home sur ce que je suis en dessous de du bonton en savoir plus 
+- [ ] sur la section home le bouton en savoir + remet le texte en visible (le mettre en hide avant => query selector)
+
+- [ ] Mettre menu sur le coté avec mail et autre et faire disparaitre une fois que le footer est présent 
+- [ ] Création d'un read me pour présentation sur github 
+
+
+## Section contact
+- [ ] Création formulaire en post pour récupération donnée 
+
+## Section Skill 
+- [ ] rendre ça plus jolie : Aller voir des sites pour voir quoi faire 
+- [ ] Mettre la photo en face des hards skill et faire une ligne entière avec tous les logo (ils sont trop petit la)
+
+## Section Experience 
+- [ ] rendre ça plus jolie : Aller voir des sites pour voir quoi faire 
+
+## Section Carrousel 
+- [ ] Mise en ligne de site pour le remplir 
+  - [ ] Contacter Nib pour savoir pourquoi railway ne fonctionne pas

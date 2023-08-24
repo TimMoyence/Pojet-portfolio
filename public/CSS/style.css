@@ -11,10 +11,6 @@ h6{
 font-family: 'Nunito', sans-serif !important;
 }
 
-/* header{
-  margin-bottom: 56px;
-} */
-
 .main{
   background-color: #0C1821;
   height: 100%;
@@ -22,6 +18,9 @@ font-family: 'Nunito', sans-serif !important;
 
 .nav-bar-title{
   color: #59D4E4 
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color:#59D4E4 !important;
 }
 
 .partials {
