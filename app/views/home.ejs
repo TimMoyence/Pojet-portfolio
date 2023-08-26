@@ -1,5 +1,9 @@
 <%- include ('partials/head') %> <%- include ('partials/header') %>
-
+<% if (locals?.error) {  %>
+  <div class="alert alert-danger text-center" role="alert">
+    <%= error %>
+  </div> 
+<% } %> 
 <section class="mt-4 mb-4 m-auto p-4" style="background-color: #d4eafa" id="scrollspyHeading1">
   <h1 class="p-2 text-center pt-5">Tim Moyence</h1>
   <img
@@ -7,31 +11,33 @@
     alt=""
     class="rounded mx-auto d-block presentation-picture"
   />
-  <p class="presentation__paraph mt-4 m-auto">
-    Après six ans passé chez Decathlon, dont trois en tant que responsable ou
-    j’ai pu acquérir des compétences grâce a des tâches aussi diverses et
-    variées, apportées par le métier de responsable, m’ont permises de mettre en
-    pratique mes compétences scolaire aussi bien dans la gestion d’un rayon par,
-    le pilotage de l’activité, le management d’une équipe (en passant du
-    recrutement, a l’intégration puis l’évolution de celle ci grâce aux
-    entretiens de développements) ainsi que l’organisation du rayon. Tout cela
-    dans l’idée de gestion d’une entreprise car chaque responsable de rayon doit
-    gérer son univers comme si il gérait son business. Mais également lancer des
-    services prometteur comme l’occasion.
-  </p>
-  <p class="presentation__paraph mt-4 m-auto">
-    J’ai pris la décision de me reconvertir dans un nouveau métier. Le
-    <strong>métier de développeur</strong>. En effet, j’ai toujours été attiré
-    par le digital et les métiers en lien avec l’informatique, j’ai pu lors de
-    mon master réaliser deux sites web sur wordpress, puis un sur lequel j’ai pu
-    travailler au quotidien. Très agile j’aime le mouvement et le changement,
-    cette reconversion est donc une aubaine pour moi d’aller vers un univers en
-    constant mouvement. L’objectif sera en tant que jeune développeur web de
-    pouvoir allier les deux choses qui me passionne, le voyage et la découverte
-    de nouvelle culture avec un affection particulière pour le code.
-  </p>
+  <div class="presentation__paraph__hide collapse">
+    <p class="presentation__paraph mt-4 m-auto">
+      Après six ans passé chez Decathlon, dont trois en tant que responsable ou
+      j’ai pu acquérir des compétences grâce a des tâches aussi diverses et
+      variées, apportées par le métier de responsable, m’ont permises de mettre en
+      pratique mes compétences scolaire aussi bien dans la gestion d’un rayon par,
+      le pilotage de l’activité, le management d’une équipe (en passant du
+      recrutement, a l’intégration puis l’évolution de celle ci grâce aux
+      entretiens de développements) ainsi que l’organisation du rayon. Tout cela
+      dans l’idée de gestion d’une entreprise car chaque responsable de rayon doit
+      gérer son univers comme si il gérait son business. Mais également lancer des
+      services prometteur comme l’occasion.
+    </p>
+    <p class="presentation__paraph mt-4 m-auto">
+      J’ai pris la décision de me reconvertir dans un nouveau métier. Le
+      <strong>métier de développeur</strong>. En effet, j’ai toujours été attiré
+      par le digital et les métiers en lien avec l’informatique, j’ai pu lors de
+      mon master réaliser deux sites web sur wordpress, puis un sur lequel j’ai pu
+      travailler au quotidien. Très agile j’aime le mouvement et le changement,
+      cette reconversion est donc une aubaine pour moi d’aller vers un univers en
+      constant mouvement. L’objectif sera en tant que jeune développeur web de
+      pouvoir allier les deux choses qui me passionne, le voyage et la découverte
+      de nouvelle culture avec un affection particulière pour le code.
+    </p>
+  </div>
   <div class="d-flex justify-content-center mt-5">
-    <button type="submit" class="btn btn-contact">En savoir plus &#x23F5</button>
+    <button type="submit" class="btn btn-contact knowMore">En savoir plus &#x23F5</button>
   </div>
 </section>
 <section class="mt-4 mb-4 m-auto" style="background-color: #d4eafa" id="scrollspyHeading2">
@@ -70,7 +76,10 @@
             <li class="softSkill__item list-group-item">écoute</li>
           </ul>
         </div>
-        <div class="hard-skill container d-flex justify-content-between p-2">
+        
+      </div>
+    </div>
+    <div class="hard-skill container d-flex justify-content-between p-2">
           <img class="hard-skill__img" src="/image/languages/HTML.png" alt="">
           <img class="hard-skill__img" src="/image/languages/CSS.png" alt="">
           <img class="hard-skill__img" src="/image/languages/JS.png" alt="">
@@ -80,8 +89,6 @@
           <img class="hard-skill__img" src="/image/languages/mongoDB.png" alt="">
           <img class="hard-skill__img" src="/image/languages/github.png" alt="">
         </div>
-      </div>
-    </div>
   </div>
 </section>
 <section class="mt-4 mb-4 m-auto p-4d" style="background-color: #d4eafa" id="scrollspyHeading3">

@@ -22,11 +22,11 @@
 
 
 ## Section contact
-- [ ] Création formulaire en post pour récupération donnée 
+- [X] Création formulaire en post pour récupération donnée 
 
 ## Section Skill 
 - [ ] rendre ça plus jolie : Aller voir des sites pour voir quoi faire 
-- [ ] Mettre la photo en face des hards skill et faire une ligne entière avec tous les logo (ils sont trop petit la)
+- [X] Mettre la photo en face des hards skill et faire une ligne entière avec tous les logo (ils sont trop petit la)
 
 ## Section Experience 
 - [ ] rendre ça plus jolie : Aller voir des sites pour voir quoi faire 
