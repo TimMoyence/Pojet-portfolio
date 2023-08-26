@@ -1,50 +1,81 @@
-<%- include ('partials/head') %> <%- include ('partials/header') %>
-<% if (locals?.error) {  %>
-  <div class="alert alert-danger text-center" role="alert">
-    <%= error %>
-  </div> 
-<% } %> 
-<section class="mt-4 mb-4 m-auto p-4" style="background-color: #d4eafa" id="scrollspyHeading1">
+<%- include ('partials/head') %> <%- include ('partials/header') %> <% if
+(locals?.error) { %>
+<div class="alert alert-danger text-center" role="alert"><%= error %></div>
+<% } %>
+<section
+  class="mt-4 mb-4 m-auto p-4"
+  style="background-color: #d4eafa"
+  id="scrollspyHeading1"
+>
   <h1 class="p-2 text-center pt-5">Tim Moyence</h1>
   <img
     src="/image/photo__site.JPG"
     alt=""
     class="rounded mx-auto d-block presentation-picture"
   />
-  <div class="presentation__paraph__hide collapse">
+  <div class="mySkill container d-flex justify-content-between p-2">
+    <div class="mySkill d-flex row justify-content-center ">
+      <img src="/image/myskill/agility.png" alt="" class="mySkill__img " />
+      <p class="text-center">Agilité</p>
+    </div>
+    <div class="mySkill d-flex row justify-content-center">
+      <img src="/image/myskill/curiosité.png" alt="" class="mySkill__img" />
+      <p class="text-center">Curiosité</p>
+    </div>
+    <div class="mySkill d-flex row justify-content-center">
+      <img src="/image/myskill/innovation.png" alt="" class="mySkill__img" />
+      <p class="text-center">Innovant</p>
+    </div>
+    <div class="mySkill d-flex row justify-content-center">
+      <img src="/image/myskill/organisation.png" alt="" class="mySkill__img" />
+      <p class="text-center">Organisé</p>
+    </div>
+    <div class="mySkill d-flex row justify-content-center">
+      <img src="/image/myskill/team-work.png" alt="" class="mySkill__img" />
+      <p class="text-center">Travail en équipe</p>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mt-5">
+    <button type="submit" class="btn btn-contact knowMore">
+      En savoir plus &#x23F5
+    </button>
+  </div>
+  <div class="hide_paragraphe collapse">
     <p class="presentation__paraph mt-4 m-auto">
       Après six ans passé chez Decathlon, dont trois en tant que responsable ou
       j’ai pu acquérir des compétences grâce a des tâches aussi diverses et
-      variées, apportées par le métier de responsable, m’ont permises de mettre en
-      pratique mes compétences scolaire aussi bien dans la gestion d’un rayon par,
-      le pilotage de l’activité, le management d’une équipe (en passant du
+      variées, apportées par le métier de responsable, m’ont permises de mettre
+      en pratique mes compétences scolaire aussi bien dans la gestion d’un rayon
+      par, le pilotage de l’activité, le management d’une équipe (en passant du
       recrutement, a l’intégration puis l’évolution de celle ci grâce aux
       entretiens de développements) ainsi que l’organisation du rayon. Tout cela
-      dans l’idée de gestion d’une entreprise car chaque responsable de rayon doit
-      gérer son univers comme si il gérait son business. Mais également lancer des
-      services prometteur comme l’occasion.
+      dans l’idée de gestion d’une entreprise car chaque responsable de rayon
+      doit gérer son univers comme si il gérait son business. Mais également
+      lancer des services prometteur comme l’occasion.
     </p>
     <p class="presentation__paraph mt-4 m-auto">
       J’ai pris la décision de me reconvertir dans un nouveau métier. Le
       <strong>métier de développeur</strong>. En effet, j’ai toujours été attiré
       par le digital et les métiers en lien avec l’informatique, j’ai pu lors de
-      mon master réaliser deux sites web sur wordpress, puis un sur lequel j’ai pu
-      travailler au quotidien. Très agile j’aime le mouvement et le changement,
-      cette reconversion est donc une aubaine pour moi d’aller vers un univers en
-      constant mouvement. L’objectif sera en tant que jeune développeur web de
-      pouvoir allier les deux choses qui me passionne, le voyage et la découverte
-      de nouvelle culture avec un affection particulière pour le code.
+      mon master réaliser deux sites web sur wordpress, puis un sur lequel j’ai
+      pu travailler au quotidien. Très agile j’aime le mouvement et le
+      changement, cette reconversion est donc une aubaine pour moi d’aller vers
+      un univers en constant mouvement. L’objectif sera en tant que jeune
+      développeur web de pouvoir allier les deux choses qui me passionne, le
+      voyage et la découverte de nouvelle culture avec un affection particulière
+      pour le code.
     </p>
   </div>
-  <div class="d-flex justify-content-center mt-5">
-    <button type="submit" class="btn btn-contact knowMore">En savoir plus &#x23F5</button>
-  </div>
 </section>
-<section class="mt-4 mb-4 m-auto" style="background-color: #d4eafa" id="scrollspyHeading2">
+<section
+  class="mt-4 mb-4 m-auto"
+  style="background-color: #d4eafa"
+  id="scrollspyHeading2"
+>
   <h1 class="p-2 text-center pt-5">My Skills</h1>
   <div class="container p-4">
     <div class="row">
-      <div class="col-md-4">
+      <div class=" col-md-4">
         <img
           src="/image/photo__site.JPG"
           alt=""
@@ -76,80 +107,141 @@
             <li class="softSkill__item list-group-item">écoute</li>
           </ul>
         </div>
-        
       </div>
     </div>
     <div class="hard-skill container d-flex justify-content-between p-2">
-          <img class="hard-skill__img" src="/image/languages/HTML.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/CSS.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/JS.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/Node.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/postgres.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/bootstraps.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/mongoDB.png" alt="">
-          <img class="hard-skill__img" src="/image/languages/github.png" alt="">
-        </div>
+      <img class="hard-skill__img" src="/image/languages/HTML.png" alt="" />
+      <img class="hard-skill__img" src="/image/languages/CSS.png" alt="" />
+      <img class="hard-skill__img" src="/image/languages/JS.png" alt="" />
+      <img class="hard-skill__img" src="/image/languages/Node.png" alt="" />
+      <img class="hard-skill__img" src="/image/languages/postgres.png" alt="" />
+      <img
+        class="hard-skill__img"
+        src="/image/languages/bootstraps.png"
+        alt=""
+      />
+      <img class="hard-skill__img" src="/image/languages/mongoDB.png" alt="" />
+      <img class="hard-skill__img" src="/image/languages/github.png" alt="" />
+    </div>
   </div>
 </section>
-<section class="mt-4 mb-4 m-auto p-4d" style="background-color: #d4eafa" id="scrollspyHeading3">
+<section
+  class="mt-4 mb-4 m-auto p-4d"
+  style="background-color: #d4eafa"
+  id="scrollspyHeading3"
+>
   <h1 class="p-2 text-center pt-5">Experience</h1>
   <div class="container p-4 row">
     <div class="col-md-6">
       <h4 class="p-2 text-center pt-2">Professionnel</h4>
       <ul class="list-group list-group-mine">
-        <li class="list-group-item ms-3 text-decoration-underline">2018-2020 : </li>
-        <li class="list-group-item ms-4">Mastère, Manager Stratégie et performance commerciale - option entrepreneuriat</li>
-        <li class="list-group-item ms-3 text-decoration-underline">2017-2018 : </li>
-        <li class="list-group-item ms-4">Commercial et Marketing Bachelor, Responsable Management Opérationnel </li>
-        <li class="list-group-item ms-3 text-decoration-underline">2015-2017 : </li>
-        <li class="list-group-item ms-4">Brevet Technicien supérieur, Management de l'Unité Commerciale</li>
+        <li class="list-group-item ms-3 text-decoration-underline">
+          2018-2020 :
+        </li>
+        <li class="list-group-item ms-4">
+          Mastère, Manager Stratégie et performance commerciale - option
+          entrepreneuriat
+        </li>
+        <li class="list-group-item ms-3 text-decoration-underline">
+          2017-2018 :
+        </li>
+        <li class="list-group-item ms-4">
+          Commercial et Marketing Bachelor, Responsable Management Opérationnel
+        </li>
+        <li class="list-group-item ms-3 text-decoration-underline">
+          2015-2017 :
+        </li>
+        <li class="list-group-item ms-4">
+          Brevet Technicien supérieur, Management de l'Unité Commerciale
+        </li>
       </ul>
     </div>
     <div class="col-md-6">
       <h4 class="p-2 text-center pt-2">Personnel</h4>
-      <ul class=" list-group list-group-mine">
-        <li class="list-group-item ms-3 text-decoration-underline">Sept-Novembre 2023 : </li>
-        <li class="list-group-item ms-4">Réalisation formation informatique </li>
-        <li class="list-group-item ms-3 text-decoration-underline">2017 : </li>
-        <li class="list-group-item ms-4">Fondation RideAgainst waste </li>
-        <li class="list-group-item ms-3 text-decoration-underline">2022 : </li>
-        <li class="list-group-item ms-4">Création entreprise AsiliDesign </li>
-        <li class="list-group-item ms-3 text-decoration-underline">2018 / 2019 : </li>
-        <li class="list-group-item ms-4">Création plusieurs business Plan </li>
-        <li class="list-group-item ms-3 text-decoration-underline">2019 - 2020 : </li>
+      <ul class="list-group list-group-mine">
+        <li class="list-group-item ms-3 text-decoration-underline">
+          Sept-Novembre 2023 :
+        </li>
+        <li class="list-group-item ms-4">Réalisation formation informatique</li>
+        <li class="list-group-item ms-3 text-decoration-underline">2017 :</li>
+        <li class="list-group-item ms-4">Fondation RideAgainst waste</li>
+        <li class="list-group-item ms-3 text-decoration-underline">2022 :</li>
+        <li class="list-group-item ms-4">Création entreprise AsiliDesign</li>
+        <li class="list-group-item ms-3 text-decoration-underline">
+          2018 / 2019 :
+        </li>
+        <li class="list-group-item ms-4">Création plusieurs business Plan</li>
+        <li class="list-group-item ms-3 text-decoration-underline">
+          2019 - 2020 :
+        </li>
         <li class="list-group-item ms-4">Réalisation site web wordpress</li>
       </ul>
     </div>
   </div>
 </section>
-<section class="mt-4 mb-4 m-auto p-4d" style="background-color: #0C1821" id="scrollspyHeading4">
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<section
+  class="mt-4 mb-4 m-auto p-4d"
+  style="background-color: #0c1821"
+  id="scrollspyHeading4"
+>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <a href="https://ludexo-valorant-timmoyence-production.up.railway.app"
+          ><img
+            src="/image/website/valorant.png"
+            class="d-block w-100"
+            alt="..."
+        /></a>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="..." />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <a href="https://ludexo-valorant-timmoyence-production.up.railway.app"><img src="/image/website/valorant.png" class="d-block w-100" alt="..."></a>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
 </section>
 
 <%- include ('partials/foot') %>

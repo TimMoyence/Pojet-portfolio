@@ -23,18 +23,21 @@ font-family: 'Nunito', sans-serif !important;
     background-color:#59D4E4 !important;
 }
 
+.logo_asili{
+  margin-right: 0.25rem !important;
+}
 .partials {
   background-color: #3D767E;
 }
 
 .alert-danger{
-    padding-top: 56px !important;
+    padding-top: 61px !important;
 }
 
 section{
   min-height: 80vh !important;
   max-width: 80%;
-  padding-top: 56px !important;
+  padding-top: 61px !important;
 }
 
 .presentation-picture{
@@ -45,6 +48,12 @@ section{
 
 .presentation__paraph{
   max-width: 80%;
+}
+
+.mySkill__img{
+  max-width: 5rem;
+  aspect-ratio: 3/4;
+  object-fit: contain;
 }
 
 .skill-picture{

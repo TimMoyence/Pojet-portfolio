@@ -1,12 +1,7 @@
-const presParaph = document.getElementsByClassName("presentation__paraph__hide");
+let presParaph = document.querySelector(".hide_paragraphe");
+let KnowMoreClicked = document.querySelector('.knowMore');
 
-const KnowMoreClicked = document.getElementsByClassName("knowMore");
 
-function seeParaph() {
-    KnowMoreClicked.addEventListener(
-      "click",
-      presParaph.removeClass("collapse")
-    );
-}
-
-seeParaph();
+KnowMoreClicked.addEventListener("click", function() {
+  presParaph.classList.toggle("collapse")
+});
