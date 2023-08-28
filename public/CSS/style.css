@@ -41,9 +41,8 @@ section{
 }
 
 .presentation-picture{
-  max-width: 10rem;
-  aspect-ratio: 1/2;
-  object-fit: contain;
+  max-width: 15rem;
+  aspect-ratio: 3/4;
 }
 
 .presentation__paraph{
@@ -57,9 +56,9 @@ section{
 }
 
 .skill-picture{
-  max-width: 20rem;
-  aspect-ratio: 1/2;
-  object-fit: contain;
+  max-width: 15rem;
+  aspect-ratio: 3/4;
+  /* object-fit: contain; */
 }
 
 .hard-skill__img{

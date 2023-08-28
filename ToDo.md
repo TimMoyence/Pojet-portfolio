@@ -5,17 +5,17 @@
 - [ ] Rendre ça responsive grand écran 
   - [ ] Rendre responsive petit écran avec navbar surtout 
 - [ ] Mettre un fond un peu design avec du js pour la gestion du scrool sur le background avoir des figure qui se déplace au scroll
-- [ ] Gestion des cookie et mise en place d'une acceptation 
+- [ ] Gestion des cookiees et mise en place d'une acceptation 
 - [ ] Creation base de donnée 
   - [ ] avec droit : User / admin (moi création d'origine)
   - [ ] pour récupération des formulaire  
 
 ## Section NavBar
-- [ ] Faire en sorte que le logo sois plus visible
+- [X] Faire en sorte que le logo sois plus visible
 
 ## Section Home
-- [ ] Mettre des petits icones sur la section home sur ce que je suis en dessous de du bonton en savoir plus 
-- [ ] sur la section home le bouton en savoir + remet le texte en visible (le mettre en hide avant => query selector)
+- [X] Mettre des petits icones sur la section home sur ce que je suis en dessous de du bonton en savoir plus 
+- [X] sur la section home le bouton en savoir + remet le texte en visible (le mettre en hide avant => query selector)
 
 - [ ] Mettre menu sur le coté avec mail et autre et faire disparaitre une fois que le footer est présent 
 - [ ] Création d'un read me pour présentation sur github 
