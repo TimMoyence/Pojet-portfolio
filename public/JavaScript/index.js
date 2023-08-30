@@ -7,7 +7,7 @@ KnowMoreClicked.addEventListener("click", function () {
 
 const txtAnim = document.querySelector(".title-dev");
 
-console.log(txtAnim);
+
 new Typewriter(txtAnim, {
   deleteSpeed: 20,
 })
