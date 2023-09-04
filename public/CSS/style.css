@@ -43,7 +43,7 @@ section{
 
 .presentation-picture{
   max-width: 15rem;
-  aspect-ratio: 3/4;
+  aspect-ratio: 5/6;
 }
 
 .presentation__paraph{
@@ -85,7 +85,7 @@ section{
 }
 
 .btn-contact:hover{
- background-color: #0C1821;
+ background-color: #0C1821 !important;
  color: #59D4E4; 
 }
 
