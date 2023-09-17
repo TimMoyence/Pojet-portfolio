@@ -141,6 +141,9 @@ section{
 }
 
 @media (min-width: 400px) {
+*{
+  font-size: 1rem !important;
+}
 .presentation-picture{
   width: 15rem;
 }

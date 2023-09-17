@@ -2,13 +2,13 @@
 
 - [X] Scoply pour mettre en surbrillance la partie du menu dans lequels on est : https://getbootstrap.com/docs/5.3/components/scrollspy/
 - [X] Geston middle d'erreur
-- [ ] Rendre ça responsive grand écran 
-  - [ ] Rendre responsive petit écran avec navbar surtout 
+- [X] Rendre ça responsive grand écran 
+  - [X] Rendre responsive petit écran avec navbar surtout 
 - [ ] Mettre un fond un peu design avec du js pour la gestion du scrool sur le background avoir des figure qui se déplace au scroll
 - [ ] Gestion des cookiees et mise en place d'une acceptation 
 - [ ] Creation base de donnée 
   - [ ] avec droit : User / admin (moi création d'origine)
-  - [ ] pour récupération des formulaire  
+  - [X] pour récupération des formulaire  
 
 ## Section NavBar
 - [X] Faire en sorte que le logo sois plus visible
