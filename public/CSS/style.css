@@ -1,6 +1,8 @@
 *{
   font-family: 'Barlow', sans-serif !important;
+  font-size: 0.8rem;
 }
+
 
 h1, 
 h2,
@@ -14,6 +16,7 @@ font-family: 'Nunito', sans-serif !important;
 .main{
   background-color: #0C1821;
   height: 100%;
+  background-image: url('https://prod.spline.design/LEvjG3OETYd2GsRw/scene.splinecode');
 }
 
 .nav-bar-title{
@@ -24,7 +27,7 @@ font-family: 'Nunito', sans-serif !important;
 }
 
 .logo_asili{
-  margin-right: 0.25rem !important;
+  margin-right: 0.45rem !important;
 }
 .partials {
   background-color: #3D767E;
@@ -35,14 +38,11 @@ font-family: 'Nunito', sans-serif !important;
 }
 
 section{
-  min-height: 80vh !important;
   max-width: 80%;
-  padding-top: 61px !important;
-
 }
 
 .presentation-picture{
-  max-width: 15rem;
+  width: 6rem;
   aspect-ratio: 5/6;
 }
 
@@ -50,20 +50,30 @@ section{
   max-width: 80%;
 }
 
+#scrollspyHeading1{
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
+}
+
 .mySkill__img{
-  max-width: 5rem;
+  max-width: 4rem;
   aspect-ratio: 3/4;
   object-fit: contain;
 }
 
+.mySkill .text-center{
+  max-width: 6rem;
+  font-size: 0.7rem;
+}
+
 .skill-picture{
-  max-width: 15rem;
+  width: 8rem;
   aspect-ratio: 3/4;
   /* object-fit: contain; */
 }
 
 .hard-skill__img{
-  max-width: 4rem;
+  max-width: 3.5rem;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
@@ -93,4 +103,56 @@ section{
   max-width: 2rem !important;
   aspect-ratio: 1/2;
   object-fit: contain;
+}
+
+.footer .container{
+  max-width: 80%;
+}
+
+@media (min-width: 1250px) {
+  section{
+  min-height: 80vh !important;
+}
+.skill-picture{
+  max-width: 15rem;
+}
+.mySkill__img{
+  max-width: 5rem;
+}
+#scrollspyHeading1{
+  padding-left: 0rem;
+  padding-right: 0rem ;
+}
+.mySkill .text-center{
+  max-width: 15rem !important;
+}
+}
+
+@media (min-width: 700px){
+  .mySkill .text-center{
+  max-width: 15rem !important;
+}
+.mySkill__img{
+  max-width: 5rem;
+}
+section{
+  padding-top: 61px !important;
+}
+}
+
+@media (min-width: 400px) {
+.presentation-picture{
+  width: 15rem;
+}
+.mySkill .text-center{
+  max-width: 5rem;
+  font-size: 1rem !important;
+}
+.skill-picture{
+  width: 10rem;
+}
+.hard-skill__img{
+  max-width: 4rem;
+}
+
 }
