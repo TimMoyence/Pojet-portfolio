@@ -34,3 +34,5 @@
 ## Section Carrousel 
 - [ ] Mise en ligne de site pour le remplir 
   - [ ] Contacter Nib pour savoir pourquoi railway ne fonctionne pas
+  - [ ] Metrte dans des mock up mes liens vers mes sites
+  - [ ] 
